@@ -210,3 +210,9 @@ body {
 		max-height: 3rem;
 	}
 }
+
+@media only screen and (max-height: 700px) {
+	.hero {
+		gap: 4rem;
+	}
+}
