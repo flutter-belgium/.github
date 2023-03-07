@@ -206,6 +206,11 @@ body {
 	.hero {
 		gap: 4rem;
 	}
+
+	.socials {
+		gap: 1.5rem;
+	}
+
 	.socials a {
 		max-height: 3rem;
 	}
