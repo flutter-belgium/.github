@@ -205,7 +205,6 @@ body {
 .made_in_flutter_belgium {
  	color: black;
 	font-family: 'Roboto';
-	text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
