@@ -26,6 +26,9 @@ if (/android/i.test(userAgent)) {
 } else if (/iPad|iPhone|iPod/i.test(userAgent)) {
 	// User is using an iOS device, open the Apple App Store
 	window.location.href = appStoreUrl;
+} else {
+	// For now we redirect to appStoreUrl when on desktop
+	window.location.href = appStoreUrl;
 }
 </script>
 </body>
