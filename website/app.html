@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile App</title>
+</head>
+<body>
+<script>
+
+var appStoreUrl = 'https://apps.apple.com/nl/app/flutter-belgium/id6479450596';
+var playStoreUrl = 'https://play.google.com/store/apps/details?id=be.flutterbelgium.app';
+
+var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+if (/android/i.test(userAgent)) {
+	// User is using an Android device, open the Google Play Store
+	window.location.href = playStoreUrl;
+} else if (/iPad|iPhone|iPod/i.test(userAgent)) {
+	// User is using an iOS device, open the Apple App Store
+	window.location.href = appStoreUrl;
+}
+</script>
+</body>
+</html>
